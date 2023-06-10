@@ -1,0 +1,22 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 8rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #4e4e4e;
+  color: white;
+  border: 0;
+}
+.btn:active {
+  border: 3px solid grey;
+}
